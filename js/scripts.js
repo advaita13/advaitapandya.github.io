@@ -13,7 +13,7 @@
             years = diff / 1000 / 60 / 60 / 24 / 365,
             yoe = Math.round(years);
 
-        const desc = 'Senior Software Engineer with days ' + yoe + ' years of experience in designing and developing large scale distributed systems keeping latency, reliability, and usability in mind. ' +
+        const desc = 'Senior Software Engineer with ' + yoe + ' years of experience in designing and developing large scale distributed systems keeping latency, reliability, and usability in mind. ' +
             'Experience working in the Payment Industry, in particular during Japan’s big transition to cashless payments.';
         $("p#desc").text(desc);
     });
